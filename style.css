@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.game-container1{
+    height: 80vh;
+    width: 50vh;
+    background-color: white;
+}
+
+.game-button{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px solid black;
+}
+
+.game-button img{
+    height: 30%;
+    width: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid black;
+}
