@@ -37,3 +37,7 @@ body{
     cursor: pointer;
     border: 2px solid black;
 }
+
+.game-button img:hover{
+    box-shadow: 0px 0px 25px 5px rgba(139, 20, 20, 0.7);
+}
